@@ -1,0 +1,110 @@
+/* =========================
+   MY ORDERS
+========================= */
+
+#orders-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* Order Card */
+.order-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Order ID */
+.order-card h3 {
+    margin-bottom: 12px;
+    color: #222;
+}
+
+/* Date & Status */
+.order-card > p {
+    margin: 7px 0;
+    color: #555;
+}
+
+/* Products Container */
+.order-products {
+    margin-top: 15px;
+}
+
+/* Single Product */
+.order-product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 15px 0;
+
+    border-top: 1px solid #ddd;
+}
+
+/* Product Image */
+.order-product img {
+    width: 100px;
+    height: 100px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+/* Product Name */
+.order-product h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #222;
+}
+
+/* Product Price */
+.order-product p {
+    color: #e63946;
+    font-weight: bold;
+}
+
+/* Total */
+.order-card > h3:last-child {
+    text-align: right;
+
+    border-top: 1px solid #ddd;
+
+    padding-top: 15px;
+    margin-top: 15px;
+
+    color: #222;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    #orders-container {
+        width: 95%;
+    }
+
+    .order-card {
+        padding: 15px;
+    }
+
+    .order-product {
+        gap: 15px;
+    }
+
+    .order-product img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .order-card > h3:last-child {
+        text-align: left;
+    }
+}
