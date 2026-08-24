@@ -50,6 +50,20 @@ This project was created to practice frontend web development concepts including
 * Add product search and filtering
 * Add product details page
 
+* ## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](Screenshot_Home.jpeg)
+
+### 🛍️ Products Page
+![Products Page](Screenshot_product.jpeg)
+
+### 🛒 Cart Page
+![Cart Page](Screenshot_cart.jpeg)
+
+### 📦 My Orders Page
+![My Orders Page](Screenshot_My-orders.jpeg)
+
 ## 👨‍💻 Developer
 
 Sandeep Maurya
